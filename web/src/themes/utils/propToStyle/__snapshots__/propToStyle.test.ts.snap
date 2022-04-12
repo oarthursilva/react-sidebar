@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`propToStyle() when propToStyle receives an argument with breakpoint render only a single extra large breakpoint resolution 1`] = `
+Array [
+  "
+        ",
+  "
+        @media only screen and (min-width: ",
+  "1200",
+  "px) {
+          ",
+  "text-align: center;",
+  " ;
+      }
+      ",
+  "
+      ",
+]
+`;
+
+exports[`propToStyle() when propToStyle receives an argument with breakpoint render only a single small breakpoint resolution 1`] = `
+Array [
+  "
+        ",
+  "
+        @media only screen and (min-width: ",
+  "0",
+  "px) {
+          ",
+  "text-align: center;",
+  " ;
+      }
+      ",
+  "
+      ",
+]
+`;
+
+exports[`propToStyle() when propToStyle receives an argument with breakpoints render multiple breakpoints resolution 1`] = `
+Array [
+  "
+        ",
+  "
+        @media only screen and (min-width: ",
+  "480",
+  "px) {
+          ",
+  "text-align: left;",
+  " ;
+      }
+      ",
+  "
+        @media only screen and (min-width: ",
+  "768",
+  "px) {
+          ",
+  "text-align: center;",
+  " ;
+      }
+      ",
+  "
+        @media only screen and (min-width: ",
+  "992",
+  "px) {
+          ",
+  "text-align: right;",
+  " ;
+      }
+      ",
+  "
+      ",
+]
+`;
